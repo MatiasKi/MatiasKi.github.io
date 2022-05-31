@@ -1,0 +1,57 @@
+.header {
+    text-align: center;
+    font-size: 100%;
+}
+.aside {
+    font-size: 85%;
+}
+.section {
+    text-align: center;
+    font-size: 100%
+}
+.article {
+    text-align: center;
+}
+.article h1{
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.article p{
+    font-size: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer {
+    text-align: right;
+    padding: 50px 100px;
+    font-size: 85%;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: nav; }
+.item3 { grid-area: aside; }
+.item4 { grid-area: article; }
+.item5 { grid-area: section; }
+.item6 { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'aside article article article section section'
+      'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 50px;
+}
+
+.grid-container > div {
+    background-color: rgb(233, 229, 196);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    opacity: 0.8;
+}
+body {
+    background-image: url("ravintola.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link type="text/css" rel="stylesheet" href="palautelomakemobiili.css">
+    <title>Harjoitus 5 Mobiilipalautelomake</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+ <div class="myDiv">
+    <div class="item1"> 
+            <header class="header">
+            <h1>Palautelomake</h1>
+        </header>
+        </div>
+        <form>
+        <article class="article">
+        <br>
+        Päivämäärä jolloin kävit ravintolassamme:<br> <input type="date" name="date"><br><br>
+        Kuinka kauan ruokaa joutui odottamaan? <br>
+        <select name="time">
+            <option value="time1">5-10 min</option>
+            <option value="time2">10-20 min</option>
+            <option value="time3">20-30 min</option>
+            <option value="time4">30+ min</option>
+        </select><br><br>
+        Palautetta ruoan mausta:<br> 
+        <input type="radio" name="taste" value="excellent">Erinomainen<br>
+        <input type="radio" name="taste" value="good">Hyvä<br>
+        <input type="radio" name="taste" value="okay">Keskiverto<br>
+        <input type="radio" name="taste" value="bad">Huono<br><br>
+        Lämpötilasta:<br> 
+        <input type="radio" name="temp" value="excellent">Erinomainen<br>
+        <input type="radio" name="temp" value="good">Hyvä<br>
+        <input type="radio" name="temp" value="okay">Keskiverto<br>
+        <input type="radio" name="temp" value="bad">Huono<br><br>
+        Ulkonäöstä:<br>
+        <input type="radio" name="look" value="excellent">Erinomainen<br>
+        <input type="radio" name="look" value="good">Hyvä<br>
+        <input type="radio" name="look" value="okay">Keskiverto<br>
+        <input type="radio" name="look" value="bad">Huono<br><br>
+        Hinnasta:<br> 
+        <input type="radio" name="price" value="excellent">Erinomainen<br>
+        <input type="radio" name="price" value="good">Hyvä<br>
+        <input type="radio" name="price" value="okay">Keskiverto<br>
+        <input type="radio" name="price" value="bad">Huono<br><br>
+        Palvelusta:<br> 
+        <input type="radio" name="serv" value="excellent">Erinomainen<br>
+        <input type="radio" name="serv" value="good">Hyvä<br>
+        <input type="radio" name="serv" value="okay">Keskiverto<br>
+        <input type="radio" name="serv" value="bad">Huono<br><br>
+        Missä voisimme parantaa?<br><textarea  name="better" rows="5" cols="40">
+        </textarea><br><br>
+        Vapaa palaute:<br><textarea name="free" rows="5" cols="40">
+        </textarea><br><br>
+    </article>
+    <div class="item5">
+    <section class="section">
+        <h2>Yhteystiedot</h2>
+        Etunimi:<br> <input type="text" name="firstname" value=""><br><br>
+        Sukunimi:<br> <input type="text" name="lastname" value=""><br><br>
+        Sähköposti:<br> <input type="text" name="firstname" value=""><br><br>
+        Puhelinnumero:<br> <input type="text" name="firstname" value=""><br><br>
+        <input type="checkbox" name="yep" value="yhteys">Haluan, että minuun otetaan yhteyttä
+        <br><br><input type="submit" value="Lähetä">
+    </section>
+    </div>
+    </form>
+    </article>
+</div>
+</body>
+</html>
